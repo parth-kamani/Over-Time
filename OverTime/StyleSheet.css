@@ -1,0 +1,164 @@
+﻿
+        .style1
+        {
+            width: 140px;
+            height: 110px;
+            float: left;
+            padding-left: 30px;
+        }
+        .style2
+        {
+            position: absolute;
+            margin-top: 0%;
+            height: 54px;
+            left:0px;
+            background:#1D1D1D;
+            font-family:'Bell MT';
+            font-size: medium;
+            color: #8F8F8F;
+            clear: both;
+            width: 100%;
+        }
+        .style3
+        {
+              padding-right:10px;
+        }
+        
+        .style5
+        {
+            font-family: "Courier New";
+            font-size: large;
+        }
+        .style6
+        {
+            font-size: x-large;
+            
+        }
+        .style7
+        {
+            color: #CC0000;
+        }
+       
+        .style8
+        {
+            font-family: "Courier New";
+            font-size: x-large;
+        }
+        .style9
+        {
+            font-family: "Courier New";
+        }
+        .style10
+        {
+            color: #CC0000;
+            font-size: x-large;
+        }
+       
+        .style11
+        {
+            color: #FFFFFF;
+    text-align: left;
+}
+        .style12
+        {
+            font-size: 40pt;
+    color: #FFFFFF;
+}
+        #form1
+        {
+            font-size: 6pt;
+        }
+       
+            .style13
+            {
+                height: 26px;
+            }
+            
+             .style14
+            {
+                   float:right;
+    width: 506px;
+}
+            .style15
+        {
+              padding-left:160px;
+        }  
+       .style16
+        {
+              padding-left:60px;
+        }  
+       .style17
+       {
+           float:right;
+           
+           }
+              .style18
+        {
+            float:right;
+              padding-right:200px;
+        }  
+       .style19
+       {
+           float:left;
+           padding:none;
+       }
+       .style21
+       {
+           float:right;
+    text-align: center;
+}
+ .dropbtn {
+    background-color: #333333;
+    color: white;
+    /*padding: 16px;*/
+    width:150px;
+    padding-top:13px;
+    padding-bottom:13px;
+    font-size: 16px;
+    font-weight:bold;
+    font-family:Courier New;
+    border: none;
+    cursor: pointer;
+    color:White;
+}
+a
+{
+    color:White;
+    text-decoration:none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    top: 0px;
+    left: 0px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    font-size: 14px;
+    font-weight:bold;
+    font-family:Courier New;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width:300px;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}            
+         

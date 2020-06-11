@@ -1,0 +1,325 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterContact.master.cs" Inherits="MasterContact" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+<link rel="stylesheet" type="text/css" href="StyleSheet.css" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style92
+        {
+            border-style: ridge;
+            border-color: Silver;
+            border-width: 10px;
+            width: 91%;
+        }
+        .style93
+        {
+            padding-left: 50px;
+            height: 269px;
+            width: 10px;
+        }
+        .style95
+        {
+            height: 50px;
+        }
+        .style100
+        {
+            height: 269px;
+            text-align: justify;
+            vertical-align: top;
+        }
+        .style102
+        {
+            height: 270px;
+            width: 59px;
+        }
+        .style109
+        {
+            font-size: large;
+            text-align: justify;
+        }
+        .style110
+        {
+            padding-left: 60px;
+            text-align: justify;
+        }
+        .style111
+        {
+            width: 90px;
+            height: 90px;
+            float: left;
+        }
+        .style117
+        {
+            width: 380px;
+            height: 127px;
+        }
+        .style118
+        {
+            font-size: x-large;
+            text-align: justify;
+            text-decoration: underline;
+            font-family: "Courier New";
+        }
+        .style119
+        {
+            text-decoration: underline;
+        }
+        .style120
+        {
+            border-color: Silver;
+            background-color: White;
+        }
+        .style121
+        {
+            width: 100%;
+            height: 479px;
+            background-repeat: repeat-x;
+            background-image: url("images/img83.png");
+            background-position: bottom;
+            background-color: #CCCCCC;
+        }
+        .style123
+        {
+            text-align: justify;
+        }
+        .style124
+        {
+            text-decoration: underline;
+            font-size: x-large;
+            font-family: "Courier New";
+        }
+        .style125
+        {
+            font-size: large;
+            text-align: justify;
+            font-family: "Courier New";
+        }
+        .style126
+        {
+            font-size: x-large;
+            text-align: justify;
+            font-family: "Courier New";
+        }
+        .style127
+        {
+            font-family: "Courier New";
+            font-size: medium;
+        }
+        .style128
+        {
+            font-family: "Courier New";
+            font-weight: bold;
+            font-size: x-large;
+        }
+        .style129
+        {
+            font-family: "Courier New";
+            font-weight: bold;
+            font-size: x-large;
+            background-color: White;
+        }
+        .style130
+        {
+            width: 100%;
+            height: 479px;
+            background-repeat: repeat-x;
+            background-image: url("images/img83.png");
+            background-position: bottom;
+            background-color: white;
+        }
+    </style>
+</head>
+<body bgcolor="#5C87B2">
+    <form id="form1" Runat="server">
+    <div style="font-size: small">
+    <embed class="style14" 
+                     src="http://www.respectsoft.com/onlineclock/onlineclock.swf?ccolor=red"
+                     quality="high" wmode="transparent" bgcolor="#00ccff" align="top"
+                     allowScriptAccess="sameDomain" type 3D"application/x-shockwave-flash"
+                     pluginspage="http://www.macromedia.com/go/getflashplayer"
+                     style="height: 141px; width: 130px" vspace="06" />
+            <h3 align="center" style="font-family: 'Courier New'; font-weight: bold; font-style: normal;
+                font-variant: normal; text-transform: none; color: #CC0000; text-decoration: blink;
+                font-size: 30px;" class="style3">
+                <img class="style1" src="images/logo.jpg" /><span class="style11"><span class="style12">ULTRATECH
+                    CEMENT LIMITED</span><br />GUJARAT CEMENT WORKS, KOVAYA </span>
+            </h3>
+            <h1 align="center" style="font-family: 'Courier New'; font-weight: bold; font-style: normal;
+                font-variant: normal; text-transform: none; color: #333333; text-decoration: underline blink;
+                font-size: 28px;" class="style15">
+                OVERTIME ANALYSIS SYSTEM
+            </h1>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        
+        <br />
+    <h1 align="right" 
+        style="font-family: 'Courier New'; font-weight: bold; font-style: normal;
+                font-variant: normal; text-transform: none; color: #102030; 
+                font-size: large; width: 1037px; height: 11px; margin-top: 0px; text-align: left;">
+                    <span class="style11">&nbsp;welcome</span><span class="style7">&nbsp;</span>
+                    <asp:Label ID="Label1003" runat="server" Text="Label" Visible="False"></asp:Label>
+                    <asp:Label ID="Label1002" runat="server" Text="Label" Visible="False"></asp:Label>
+                   <asp:Label ID="Label1001" runat="server"  style="font-family: 'Courier New'; font-weight: bold; font-style: normal;
+                font-variant: normal; text-transform: none; color: #FFFFFF; 
+                font-size: large; width: 1037px; height: 11px; margin-top: 0px; text-align: left;"  
+                                                ToolTip="Employee's Name(Employee Name)"    
+                        Font-Size="Large"></asp:Label>
+                </h1><br/>
+    <div align="center">
+    <asp:Label ID="Label6" runat="server" Text="dept" Visible="False"></asp:Label>
+        <table border="1px" width="100%" align="center" frame="border" bgcolor="#FFFFFF"
+            class="style121">
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <td colspan="2" class="style95">
+                                <h1 style="font-family: 'Courier New'; font-weight: bold; font-style: normal; font-variant: normal;
+                                    text-transform: none; color: #102030; text-decoration: underline blink; font-size: 28px;"
+                                    class="style110">
+                                    Contact Us
+                                </h1>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="style93">
+                            </td>
+                            <td class="style100">
+                                <img class="style92" src="images/img99.jpg" /><br />
+                                <br />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="style102">
+                            </td>
+                            <td class="style109" valign="top">
+                                <table border="2px" class="style120">
+                                    <tr>
+                                        <td colspan="2">
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63620.65610006513!2d71.45150406874428!3d20.931282323941097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be24c1c3de2ab3b%3A0xad35e538a2b22df1!2sUltraTech+Cement!5e0!3m2!1sen!2sin!4v1456892928823"
+                                                width="1150" height="300" frameborder="0" style="border: 0" allowfullscreen>
+                                            </iframe>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="style117">
+                                            <img class="style111" src="images/icons/img110.png" />
+                                            <span class="style119"><span class="style126"><strong>Location:</strong></span><span
+                                                class="style109"><strong><br class="style9" />
+                                                </strong></span></span><span class="style125"><strong>Gujarat Cement Works,</strong></span><strong><br
+                                                    class="style9" />
+                                                </strong><span class="style9"><strong>Ultratech Cement Ltd.,</strong></span><strong><br
+                                                    class="style9" />
+                                                </strong><span class="style9"><strong>Village.Kovaya,Tal.Rajula</strong></span><strong><br
+                                                    class="style9" />
+                                                </strong><span class="style9"><strong>Dist.Amreli, Gujarat</strong></span><strong><br
+                                                    class="style9" />
+                                                </strong><span class="style9"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pin.365541</strong></span><br />
+                                        </td>
+                                        <td class="style117">
+                                            <img class="style111" src="images/icons/img111.png" />
+                                            <span class="style118"><strong>Contact No.: </strong></span><strong>
+                                                <br class="style8" />
+                                                <span class="style9">+91 814-148-3673 </span></strong>
+                                            <br />
+                                            &nbsp;
+                                            <br />
+                                            &nbsp;
+                                            <br />
+                                            &nbsp;
+                                            <br />
+                                            &nbsp;
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2" class="style130">
+                                            <img class="style111" src="images/icons/img112.png" />
+                                            <table>
+                                                <tr>
+                                                    <td>
+                                                        <span class="style118"><strong>Mail Us: </strong></span><strong>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td valign="top" align="right">
+                                                        <asp:Label ID="Label1" runat="server" Text="To:" CssClass="style128"></asp:Label>
+                                                    </td>
+                                                    <td>
+                                                        <asp:TextBox ID="TextBox1" runat="server" ReadOnly="true" Text="overtime.alert@gmail.com"
+                                                            CssClass="style128" Width="450px"></asp:TextBox>
+                                                        <br />
+                                                        <br />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td valign="top" align="right">
+                                                        <asp:Label ID="Label3" runat="server" Text="Subject:" CssClass="style128"></asp:Label>
+                                                    </td>
+                                                    <td>
+                                                        <asp:TextBox ID="TextBox3" runat="server" CssClass="style128" Width="450px"></asp:TextBox>
+                                                        <br />
+                                                        <br />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td valign="top" align="right">
+                                                        <asp:Label ID="Label2" runat="server" Text="Message:" CssClass="style128"></asp:Label>
+                                                    </td>
+                                                    <td>
+                                                        <asp:TextBox ID="TextBox2" runat="server" CssClass="style128" TextMode="MultiLine"
+                                                            Height="100px" Width="450px"></asp:TextBox>
+                                                        <br />
+                                                        <br />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                    </td>
+                                                    <td>
+                                                         <asp:Button ID="Button1" runat="server" Text="Send" CssClass="style129" />
+                                                        <asp:Label ID="Label10" runat="server" Text="Label" style="font-family: 'Courier New'; font-weight: 700; color: #CC0000; background-color: #909090;" 
+                                                            visible="false"></asp:Label>
+                                                            
+                
+                                                            <br/>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        </asp:ContentPlaceHolder>
+        <br />
+                <span class="style8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         <span class="style7"><strong>I</strong></span><strong style="color: #333333">ntegrity&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </strong><span class="style7"><strong>C</strong></span><strong style="color: #333333">ommitment&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </strong><span class="style7"><strong>P</strong></span><strong style="color: #333333">assion&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </strong><span class="style7"><strong>S</strong></span><strong style="color: #333333">eamlessness&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </strong><span class="style7"><strong>S</strong></span><strong style="color: #333333">peed&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </strong></span><br />
+                <br/>
+                <table width="100%" class="style2">
+                    <tr>
+                        <td align="center" bgcolor="#1F252B" style="font-family: 'Bell MT'; font-size: medium;
+                            font-weight: lighter; font-style: normal; font-variant: normal; color: #FFFFFF"
+                            valign="bottom"><br/>
+                            OverTimeAnalysisSystem--2016©GCW-UltratechCementLtd<br />Developed By: Parth K. Kamani<br/><br/>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,166 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterHosd.master.cs" Inherits="MasterHosd" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+<link rel="stylesheet" type="text/css" href="StyleSheet.css" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body bgcolor="#5C87B2">
+    <form id="form1" runat="server">
+    <div style="font-size: small">
+    <embed class="style14" 
+                     src="http://www.respectsoft.com/onlineclock/onlineclock.swf?ccolor=red"
+                     quality="high" wmode="transparent" bgcolor="#00ccff" align="top"
+                     allowScriptAccess="sameDomain" type 3D"application/x-shockwave-flash"
+                     pluginspage="http://www.macromedia.com/go/getflashplayer"
+                     style="height: 141px; width: 130px" vspace="06" />
+    <h3 align="center" style="font-family: 'Courier New'; font-weight: bold; font-style: normal;
+                font-variant: normal; text-transform: none; color: #CC0000; text-decoration: blink;
+                font-size: 30px;" class="style3">
+                <img alt="images/logo.jpg" class="style1" src="images/logo.jpg" /><span class="style11"><span class="style12">ULTRATECH
+                    CEMENT LIMITED</span><br />GUJARAT CEMENT WORKS, KOVAYA </span>
+            </h3>
+            <h1 align="center" style="font-family: 'Courier New'; font-weight: bold; font-style: normal;
+                font-variant: normal; text-transform: none; color: #333333; text-decoration: underline blink;
+                font-size: 28px;" class="style15">
+                OVERTIME ANALYSIS SYSTEM
+            </h1>
+            <table border="2px" width="100%" bgcolor="#003366">
+                <tr>
+                    <td align="center" bgcolor="#333333">
+                        <table>
+                            <tr>
+                                <td>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </td>
+                                <td>
+                                    <div class="dropdown">
+                                        <button class="dropbtn">
+                                            <a href="HosdHome.aspx" title="Home">Home</a>
+                                        </button>
+                                    </div>
+                                </td>
+                                <td>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </td>
+                                <td>
+                                    <div class="dropdown">
+                                        <button class="dropbtn">
+                                            <a href="HosdAbout.aspx" title="About">About</a>
+                                        </button>
+                                    </div>
+                                </td>
+                                <td>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </td>
+                                <td>
+                                    <div class="dropdown">
+                                        <button class="dropbtn">
+                                            Services
+                                        </button>
+                                        <div class="dropdown-content">
+                                            <a href="HosdSerApplyOT.aspx">Apply For OverTime</a> 
+                                            <a href="HosdSerApproveOT.aspx">Approve Over Time</a>
+                                            <a href="HosdSerChangePwd.aspx">Change Password</a>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </td>
+                                <td>
+                                    <div class="dropdown">
+                                        <button class="dropbtn">
+                                            Report
+                                        </button>
+                                        <div class="dropdown-content">
+                                            <a href="HosdRptAllo.aspx">Allocation Wise Summary Report</a>
+                                            <a href="HosdRptOTStatus.aspx">Approved Over Time Status Report</a> 
+                                            <a href="HosdRptNApprove.aspx">Department's Non-Approved Report</a> 
+                                            <a href="HosdRptDept.aspx">Department Summary Report</a>
+                                            <a href="HosdRptEmp.aspx">Employee Wise Summary Report</a>
+                                            <a href="HosdRptMnt.aspx">Month Wise Summary Report</a>
+                                            <a href="HosdRptPMnt.aspx">Paid Month Wise Summary Report</a>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </td>
+                                <td>
+                                    <div class="dropdown">
+                                        <button class="dropbtn">
+                                            <a href="HosdContact.aspx">Contact Us</a>
+                                        </button>
+                                    </div>
+                                </td>
+                                <td>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </td>
+                                <td>
+                                    <div class="dropdown">
+                                        <button class="dropbtn">
+                                            <a href="Logout.aspx" title="Logout">Logout</a>
+                                        </button>
+                                    </div>
+                                </td>
+                                <td>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <br/>
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            <h1 align="right" 
+        style="font-family: 'Courier New'; font-weight: bold; font-style: normal;
+                font-variant: normal; text-transform: none; color: #102030; 
+                font-size: large; width: 1037px; height: 11px; margin-top: 0px; text-align: left;">
+                    <span class="style11">&nbsp;welcome</span><span class="style7">&nbsp;</span>
+                    <asp:Label ID="Label1003" runat="server" Text="Label" Visible="False"></asp:Label>
+                    <asp:Label ID="Label1002" runat="server" Text="Label" Visible="False"></asp:Label>
+                   <asp:Label ID="Label1001" runat="server"  style="font-family: 'Courier New'; font-weight: bold; font-style: normal;
+                font-variant: normal; text-transform: none; color: #FFFFFF; 
+                font-size: large; width: 1037px; height: 11px; margin-top: 0px; text-align: left;"  
+                                                ToolTip="Employee's Name(Employee Name)"    
+                        Font-Size="Large"></asp:Label>
+                </h1><br/>
+            <div align="center">
+                <table border="1px" width="100%" align="center" frame="border" bgcolor="#FFFFFF">
+                    <tr>
+                        <td bgcolor="#CCCCCC" class="style13">
+        
+                        
+                        </td>
+                    </tr>
+                </table>
+                </asp:ContentPlaceHolder>
+                <br />
+                <span class="style8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         <span class="style7"><strong>I</strong></span><strong style="color: #333333">ntegrity&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </strong><span class="style7"><strong>C</strong></span><strong style="color: #333333">ommitment&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </strong><span class="style7"><strong>P</strong></span><strong style="color: #333333">assion&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </strong><span class="style7"><strong>S</strong></span><strong style="color: #333333">eamlessness&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </strong><span class="style7"><strong>S</strong></span><strong style="color: #333333">peed&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </strong></span><br />
+                <br/>
+                <table width="100%" class="style2">
+                    <tr>
+                        <td align="center" bgcolor="#1F252B" style="font-family: 'Bell MT'; font-size: medium;
+                            font-weight: lighter; font-style: normal; font-variant: normal; color: #FFFFFF"
+                            valign="bottom"><br/>
+                            OverTimeAnalysisSystem--2016©GCW-UltratechCementLtd<br />Developed By: Parth K. Kamani<br/><br/>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            </div>
+    </form>
+</body>
+</html>
